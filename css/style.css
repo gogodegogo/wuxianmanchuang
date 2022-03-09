@@ -332,148 +332,6 @@ a.button {
 .gallery-grid11 {
   padding: 0;
 }
-/*----start-pricetables----*/
-.price-tables{
-	padding:4em 0;
-	background:#1e1e1e;
-}
-.price-tables h3{
-  font-family: 'Exo', sans-serif;
-  font-size: 3em;
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 1em;
-    font-weight: 700;
-
-}
-.price-tables h3 span {
-	font-weight: 400;
- 	color: #3FACFA;;
-}
-.price-table-grid{
-	float: left;
-	width: 32%;
-	margin-right: 2%;
-	text-align: center;
-}
-.price-table-grid-info ul {
-  list-style: none;
-}
-.price-table-grid:nth-child(3){
-	margin-right:0;
-}
-.price-table-grid1{
-	background:#1D405C;
-	padding-bottom: 3em;
-	 border-radius: 7px;
-}
-.price-table-grid-head1{
-	background:#1DB1F2;
-}
-.price-table-grid-head{
-	color: #fff;
-	width: 60%;
-	margin: 0 auto;
-	text-transform: uppercase;
-	font-weight: 100;
-	padding: 0.5em;
-}
-.price-table-grid-head h2{
-	font-size: 1.2em;
-	  font-family: 'Exo', sans-serif;
-}
-.price-table-grid-head h2 label{
-	font-weight: 600;
-	font-size: 1.5em;
-	vertical-align: initial;
-}
-.price-table-grid-info h4{
-	text-transform: uppercase;
-	color: #FFF;
-	font-size: 1.3em;
-	padding: 1em 0;
-	  font-family: 'Exo', sans-serif;
-}
-.price-table-grid-info ul li{
-	text-align:left;
-}
-.price-table-grid-info ul{
-	margin: 0 auto 2em auto;
-	width: 66%;
-}
-.price-table-grid-info ul li p{
-	color: #FFF;
-	padding: 0.5em 0;
-	display: block;
-	text-decoration: none;
-	  font-size: 1.1em;
-}
-.price-table-grid1 ul li p:hover{
-	color:none;
-}
-.price-table-grid-info ul li p span{
-	width:15px;
-	height:15px;
-	display:inline-block;
-	background:url("../images/img-sprite.png") no-repeat 0px 0px;
-	vertical-align:middle;
-	margin-right:0.3em;
-}
-.btn1,.btn2,.btn3,.price-table-grid ul li p{
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-}
-.btn1{
-	color: #000;
-	background: #1DB1F2;
-	padding: 0.5em 1.5em;
-	display: inline-block;
-	float: right;
-	margin-top: 0.8em;
-}
-.btn1:hover{
-	background:#8B0000;
-	color:#fff;
-	  text-decoration:none;
-}
-.btn2{
-	background:#008080;
-}
-.btn2:hover{
-	background: #1DBB90;
-}
-.price-table-grid2{
-	background:#8B0000;
-	padding-bottom: 3em;
-	border-radius: 7px;
-}
-.price-table-grid-head2{
-	background:#008080;
-}
-.price-table-grid2 ul li a:hover{
-	color:#008080;
-}
-.price-table-grid3{
-	background:#008B8B;
-	padding-bottom: 3em;
-	border-radius: 7px;
-}
-.price-table-grid-head3{
-	background:#1D405C;
-}
-.btn3{
-	background:#1D405C;;
-}
-.btn3:hover{
-	background:#1DB1F2;
-}
-.price-table-grid3 ul li a:hover{
-	color:#8B0000;
-}
-/*----//End-pricetables----*/
 .team-section {
 	padding: 3em 0;
 	background: #07010D;
@@ -841,36 +699,6 @@ ul.callbacks_tabs.callbacks2_tabs {
 	text-align:center;
 	background:rgb(29, 29, 29);
 }
-.social-icons i
-{
-	width:64px;
-	height:64px;
-	background:url("../images/img-sprite.png") no-repeat 0px 0px;
-	display: inline-block;
-	margin: 0 0 0 1em;
-}
-
-.social-icons i.icon1
-{
-	background:url("../images/img-sprite.png") no-repeat 0px 0px;
-}
-.social-icons i.icon1:hover {
-  background-position: 0px -64px;
-}
-.social-icons i.icon2
-{
-	background:url("../images/img-sprite.png") no-repeat -64px 0px;
-}
-.social-icons i.icon2:hover {
-  background-position: -64px -64px;
-}
-.social-icons i.icon3
-{
-	background:url("../images/img-sprite.png") no-repeat -128px 0px;
-}
-.social-icons i.icon3:hover {
-  background-position: -128px -64px;
-}
 .footer-bottom {
 	margin-top: 1em;
 }
@@ -891,19 +719,6 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .footer-bottom p a {
 	margin: 0 6px 0 6px;
-}
-#toTop {
-	display: none;
-	text-decoration: none;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	overflow: hidden;
-	width: 48px;
-	height: 48px;
-	border: none;
-	text-indent: 100%;
-	background: url("../images/to-top2.png") no-repeat 0px 0px;
 }
 /*--single--*/
 .header.head-top {
@@ -1704,9 +1519,6 @@ ul.callbacks_tabs.callbacks2_tabs {
 	.price-table-grid2 {
   		margin: 1em 0;
 	}
-	.btn1 {
-  		float: center;
-	}
 	.price-table-grid1 {
  		 padding-bottom: 0.5em;
 	}
@@ -1798,136 +1610,175 @@ ul.callbacks_tabs.callbacks2_tabs {
 	.footer-section {
   		padding: 2em 0;
 	}
+@media (max-width:320px) {
+    .logo {
+        width: 74%;
+    }
+
+    .top-menu ul {
+        width: 89%;
+    }
+
+    .top-menu ul li {
+        padding: 3px 0;
+    }
+
+    .about-section {
+        padding: 1.5em 0;
+    }
+
+    .about-section h3 {
+        font-size: 1.1em;
+    }
+
+    .about-grid img {
+        width: 35%;
+    }
+
+    .about-grid h4 {
+        font-size: 1em;
+    }
+
+    .about-grid p {
+        font-size: 0.9em;
+        height: 49px;
+        overflow: hidden;
+        padding: 0 0px;
+    }
+
+    a.button {
+        padding: 7px 10px;
+    }
+
+    .services-section {
+        padding: 1.5em 0;
+    }
+
+    .services-section h3 {
+        font-size: 1.1em;
+    }
+
+    .left-grid2 h4 {
+        font-size: 0.85em;
+        height: 13px;
+        overflow: hidden;
+    }
+
+    .left-grid1 h4 {
+        font-size: 1.2em;
+        padding: 19px 10px;
+    }
+
+    .gallery-section {
+        padding: 1.5em 0 0;
+    }
+
+    .gallery-section h3 {
+        font-size: 1.1em;
+    }
+
+    .price-tables h3 {
+        font-size: 1.1em;
+    }
+
+    .price-table-grid-head h2 label {
+        font-size: 1em;
+    }
+
+    .price-table-grid-info h4 {
+        font-size: 0.9em;
+    }
+
+    .price-table-grids {
+        padding: 0 0em;
+    }
+
+    .btn1 {
+        padding: 0.3em 0.7em;
+    }
+
+    .team-section h3 {
+        font-size: 1.1em;
+    }
+
+    .caption h4 {
+        font-size: 0.9em;
+    }
+
+    .caption1 p {
+        height: 39px;
+        overflow: hidden;
+    }
+
+    .caption {
+        width: 94%;
+    }
+
+    .blog-section h3 {
+        font-size: 1.2em;
+    }
+
+    .blog-section {
+        padding: 1.5em 0;
+    }
+
+    .jieshao {
+        font-size: 0.9em;
+    }
+
+    .blog-grid1 p {
+        line-height: 1.5em;
+    }
+
+    .contact-section h3 {
+        font-size: 1.1em;
+    }
+
+    .contactdetails-grid h4 {
+        font-size: 0.99em;
+    }
+
+    .contactdetails-grid1 h4 {
+        font-size: 0.95em;
+    }
+
+    .contactdetails-grid input[type="button"] {
+        font-size: 0.95em;
+        padding: 7px 15px;
+    }
+
+    .single {
+        padding: 1em 0;
+    }
+
+    .single h2 {
+        font-size: 0.9em;
+        height: 14px;
+        overflow: hidden;
+    }
+
+    .single-section h3 {
+        font-size: 1em;
+    }
+
+    .content-form h3, .comments h3 {
+        font-size: 1.05em;
+    }
+
+    .comment-info h4 {
+        font-size: 0.85em;
+    }
+
+    .comment-info h5 {
+        color: #000;
+        font-size: 0.8em;
+    }
+
+    .comments {
+        margin-top: 1em;
+    }
+
+    .content-form {
+        margin-top: 1em;
+    }
 }
-@media (max-width:320px){
-	.logo {
-	  	width: 74%;
-	}
-	.top-menu ul {
-  		width: 89%;
-	}
-	.top-menu ul li {
-  		padding: 3px 0;
-	}
-	.about-section {
- 		 padding: 1.5em 0;
-	}
-	.about-section h3 {
-  		font-size: 1.1em;
-	}
-	.about-grid img {
-  		width: 35%;
-	}
-	.about-grid h4 {
-  		font-size: 1em;
-	}
-	.about-grid p {
-	  font-size: 0.9em;
-	  height: 49px;
-	  overflow: hidden;
-	  padding: 0 0px;
-	}
-	a.button {
- 		padding: 7px 10px;
-	}
-	.services-section {
- 		 padding: 1.5em 0;
-	}
-	.services-section h3 {
-  		font-size: 1.1em;
-	}
-	.left-grid2 h4 {
-  		font-size: 0.85em;
-  		height: 13px;
-  		overflow: hidden;
-	}
-	.left-grid1 h4 {
-  		font-size: 1.2em;
- 		 padding: 19px 10px;
- 	}
- 	.gallery-section {
-  		padding: 1.5em 0 0;
-	}
-	.gallery-section h3 {
-	  font-size: 1.1em;
-	}
-	.price-tables h3 {
-  		font-size: 1.1em;
-	}
-	.price-table-grid-head h2 label {
-  		font-size: 1em;
-	}
-	.price-table-grid-info h4 {
-  		font-size: 0.9em;
-	}
-	.price-table-grids {
- 	 	padding: 0 0em;
-	}
-	.btn1 {
-	  padding: 0.3em 0.7em;
-	}
-	.team-section h3 {
-		  font-size: 1.1em;
-	}
-	.caption h4 {
- 	 	font-size: 0.9em;
- 	 }
- 	 .caption1 p {
- 	 	  height: 39px;
- 		 overflow: hidden;
-	}
-	.caption {
-  		width: 94%;
-  	 }
-  	 .blog-section h3 {
-  		font-size: 1.2em;
-	}
-	.blog-section {
-	  padding: 1.5em 0;
-	}
-	.jieshao{
-  		font-size: 0.9em;
-	}
-	.blog-grid1 p {
- 		 line-height: 1.5em;
-	}
-	.contact-section h3 {
-  		font-size: 1.1em;
-	}
-	.contactdetails-grid h4 {
-  		font-size: 0.99em;
-	}
-	.contactdetails-grid1 h4 {
- 		 font-size: 0.95em;
-	}
-	.contactdetails-grid input[type="button"] {
-	  font-size: 0.95em;
-	  padding: 7px 15px;
-	}
-	.single {
-	  padding: 1em 0;
-	}
-	.single h2 {
-	  font-size: 0.9em;
-	  height: 14px;
-	  overflow: hidden;
-	}
-	.single-section h3 {
-  		font-size: 1em;
-	}
-	.content-form h3, .comments h3 {
-  		font-size: 1.05em;
-	}
-	.comment-info h4 {
-  		font-size: 0.85em;
-	}
-	.comment-info h5 {
-		  color: #000;
-		  font-size: 0.8em;
-	 }
-	 .comments {
-		  margin-top: 1em;
-	}
-	 .content-form {
-  		margin-top: 1em;
-	}
