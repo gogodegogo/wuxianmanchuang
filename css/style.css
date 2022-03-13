@@ -633,12 +633,22 @@ ul.callbacks_tabs.callbacks2_tabs {
     text-decoration: none;
     display: block;
 }
-
+.scroll-box{
+    height: 200px;
+    overflow: hidden;
+    border:1px solid #ddd;
+}
+.scroll{
+    overflow-y:auto;
+    height:100%;
+    width:calc(100% + 20px);
+}
 .blog-grid p {
     font-size: 1.2em;
     color: #797272;
     line-height: 1.8em;
 }
+
 
 .blog-grid p.date {
     font-size: 1.3em;
